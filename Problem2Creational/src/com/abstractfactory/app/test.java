@@ -6,24 +6,24 @@ public class test {
 		
 		
 		String[] specialFeatures=new String[2];
-		specialFeatures[0]="500bhp";
-		specialFeatures[1]="1000cc";
-		MarutiFactory mfactory=new MarutiFactory("maruti-baleno","GJ22", 
-				2012, specialFeatures);
+		specialFeatures[0]="520bhp";
+		specialFeatures[1]="1200cc";
+		MarutiFactory mfactory=new MarutiFactory("nexon","DL1253", 
+				2010, specialFeatures);
 		Vehicle v1=VehicleFactory.getVehicle(mfactory);
 		
 		System.out.println(v1);
 		
-		specialFeatures[0]="700bhp";
-		specialFeatures[1]="2000cc";
-		BMWFactory bfactory=new BMWFactory("bmwx3","GJ223", 
+		specialFeatures[0]="750bhp";
+		specialFeatures[1]="2500cc";
+		BMWFactory bfactory=new BMWFactory("audi","DL1223", 
 				2022, specialFeatures);
 		Vehicle v2=VehicleFactory.getVehicle(bfactory);
 		System.out.println(v2);
 		
 		specialFeatures[0]="800bhp";
-		specialFeatures[1]="3000cc";
-		TataFactory tfactory=new TataFactory("bmwx3","GJ223", 
+		specialFeatures[1]="3500cc";
+		TataFactory tfactory=new TataFactory("bmw","DL223", 
 				2022, specialFeatures);
 		Vehicle v3=VehicleFactory.getVehicle(tfactory);
 		System.out.println(v3);
